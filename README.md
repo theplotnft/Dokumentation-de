@@ -1,6 +1,7 @@
 # Dokumentation-de
 # Internetseite
 ## Webhosting
+## Getting started
 # Beleuchtung
 ## LED Control
 ## LED Treiber
@@ -10,9 +11,11 @@
 # Leindwand
 # Stift
 # Blockchain
-## Polygon
+## Technologie
+## Smart Contract
+# NFT Marktplatz
 ## OpenSea
-## NFT
 # Validator
 # Kamera
 # Livestream
+# Datenschutzrichtlinien
