@@ -1,5 +1,5 @@
 # Dokumentation-de
-# Homepage
+# Internetseite
 ## Webhosting
 # Beleuchtung
 ## LED Control
