@@ -1,12 +1,16 @@
 # Dokumentation-de
+
 # Internetseite
 ## Webhosting
-+ Hetzner
-+ FileZilla
+### Hetzner
+### FileZilla
+
 ## Getting started
-+ WordPress
-+ PHP
-+ MySQL
+### WordPress
+  WordPress Login-URL: https://theplotnft.com/wp-login.php
+### PHP
+### MySQL
+
 # Beleuchtung
 ## LED Steuerung
 Das Modul LED-Control steuert die Beleuchtung der Leinwand im Inneren von the plot nft.
