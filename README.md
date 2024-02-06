@@ -41,4 +41,10 @@ Link zum GitHub Repo: [Plotter-Control](https://github.com/theplotnft/Plotter-Co
 # Validator
 # Kamera
 # Livestream
+## Open Broadcaster Software - OBS Studio
+
+https://pypi.org/project/obsws-python/
+
+https://github.com/obsproject
+
 # Datenschutzrichtlinien
