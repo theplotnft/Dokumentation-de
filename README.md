@@ -41,6 +41,22 @@ Link zum GitHub Repo: [Plotter-Control](https://github.com/theplotnft/Plotter-Co
 # Validator
 # Kamera
 # Livestream
+## Streaming PC
+Als Streaming PC kommt ein Windows PC zum Einsatz.
+### Installierte Software
+Die hier aufgeführete Software ist kostenfrei.
+
+Software                  | Quelle
+------------------------- | -------------------------------------------------------------------------------------------
+OBS Studio                | [Link zu externer Webseite Dritter](https://obsproject.com/de/download)
+OBS Shutdown Plugin 0.1.2 | [Link zu externer Webseite Dritter](https://github.com/norihiro/obs-shutdown-plugin/releases)
+VS Code                   | [Link zu externer Webseite Dritter](https://code.visualstudio.com/download)
+GitHub Desktop            | [Link zu externer Webseite Dritter](https://desktop.github.com/)
+Python                    | [Link zu externer Webseite Dritter](https://www.python.org/downloads/windows/)
+TortoiseGit               | [Link zu externer Webseite Dritter](https://tortoisegit.org/download/)
+Stand 19.03.2024
+
+
 ## Open Broadcaster Software - OBS Studio
 
 https://pypi.org/project/obsws-python/
