@@ -54,6 +54,7 @@ VS Code                   | [Link zu externer Webseite Dritter](https://code.vis
 GitHub Desktop            | [Link zu externer Webseite Dritter](https://desktop.github.com/)
 Python                    | [Link zu externer Webseite Dritter](https://www.python.org/downloads/windows/)
 TortoiseGit               | [Link zu externer Webseite Dritter](https://tortoisegit.org/download/)
+
 Stand 19.03.2024
 
 
