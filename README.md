@@ -40,9 +40,13 @@ Link zum GitHub Repo: [Plotter-Control](https://github.com/theplotnft/Plotter-Co
 ## OpenSea
 # Validator
 # Kamera
+# Kontroll
+## Kontroll-Einheit
+Als Kontroll-Einheit kommt ein Raspberry Pi 5 zum Einsatz.
 # Livestream
-## Streaming PC
-Als Streaming PC kommt ein Windows PC zum Einsatz.
+Nachdem die Eingabe validiert wurde, startet der Plottvorgang. Dieser wird Live auf [www.theplotnft.com](www.theplotnft.com) übertragen.
+## Streaming-Einheit
+Als Streaming Einheit kommt ein Windows PC zum Einsatz.
 ### Installierte Software
 Die hier aufgeführete Software ist kostenfrei.
 
@@ -54,14 +58,17 @@ VS Code                   | [Link zu externer Webseite Dritter](https://code.vis
 GitHub Desktop            | [Link zu externer Webseite Dritter](https://desktop.github.com/)
 Python                    | [Link zu externer Webseite Dritter](https://www.python.org/downloads/windows/)
 TortoiseGit               | [Link zu externer Webseite Dritter](https://tortoisegit.org/download/)
+WinSCP                    | [Link zu externer Webseite Dritter](https://winscp.net/)
 
 Stand 19.03.2024
 
 
 ## Open Broadcaster Software - OBS Studio
 
-https://pypi.org/project/obsws-python/
+Server
+https://github.com/obsproject/obs-websocket
 
-https://github.com/obsproject
+Client
+https://github.com/IRLToolkit/simpleobsws
 
 # Datenschutzrichtlinien
