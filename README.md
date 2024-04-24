@@ -39,6 +39,9 @@ Link zum GitHub Repo: [Plotter-Control](https://github.com/theplotnft/Plotter-Co
 # NFT Marktplatz
 ## OpenSea
 # Validator
+# Hardware-Setup
+![alt text](files/Hardware-Setup.png)
+
 # Kamera
 # Kontroll
 ## Kontroll-Einheit
@@ -59,6 +62,8 @@ GitHub Desktop            | [Link zu externer Webseite Dritter](https://desktop.
 Python                    | [Link zu externer Webseite Dritter](https://www.python.org/downloads/windows/)
 TortoiseGit               | [Link zu externer Webseite Dritter](https://tortoisegit.org/download/)
 WinSCP                    | [Link zu externer Webseite Dritter](https://winscp.net/)
+Inkscape                  | [Link zu externer Webseite Dritter](https://inkscape.org/)
+notepad++                 | [Link zu externer Webseite Dritter](https://notepad-plus-plus.org/downloads/)
 
 Stand 19.03.2024
 
