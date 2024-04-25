@@ -39,17 +39,58 @@ Link zum GitHub Repo: [Plotter-Control](https://github.com/theplotnft/Plotter-Co
 # NFT Marktplatz
 ## OpenSea
 # Validator
+
 # Hardware-Setup
 ![alt text](files/Hardware-Setup.png)
 
+## Autostart Windows 10
+Nach einem Bootup des Streaming-PCs wird automatisch der Websocket Server gestartet. Der Websocket Server stellt die Verbindung zum Kontroll-PC und zu OBS her.
+
+- WIN + R
+- Eingabe `shell:startup`
+    - Pfad: `C:\Users\theplotnft\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+- Datei in Ordner kopieren
+    - [websocket_server.bat](files/websocket_server.bat)
+- fertig
+
+## Autostart Raspberry PI 
+- Pfad:
+- Datei:
+- Command
+
+## Standardgateway
+Damit der Streaming-PC über eine interne IP-Adresse mit dem Kontroll-PC kommunizieren, und gleichzeitg eine Verbindung zum Internet herstellen kann, muss ein Gateway gesetzt werden.<br>
+Ermittlung des Standardgateways: Verbinde den Streaming-PC und Router mit einem Netzwerkkabel.
+
+![alt text](files/Standardgateway.png)
+
+## IP Settings Windows
+Öffne Menü
+- Netzwerk- und Interneteinstellungen öffnen
+- Adapteroptionen ändern
+- Wähle Netzwerkverbindung
+- Eigenschaften
+- Internetprotokoll, Version 4 (TDP/IPv4)
+
+![alt text](files/TCP_IPv4_Windows.png)
+
+## IP Settings Raspberry PI
+Wie gelangt man zum Menu
+Screenshot
+
 # Kamera
+
 # Kontroll
-## Kontroll-Einheit
-Als Kontroll-Einheit kommt ein Raspberry Pi 5 zum Einsatz.
+
+## Kontroll-PC
+Als Kontroll-PC kommt ein Raspberry Pi 5 zum Einsatz.
+
 # Livestream
 Nachdem die Eingabe validiert wurde, startet der Plottvorgang. Dieser wird Live auf [www.theplotnft.com](www.theplotnft.com) übertragen.
-## Streaming-Einheit
-Als Streaming Einheit kommt ein Windows PC zum Einsatz.
+
+## Streaming-PC
+Als Streaming-PC kommt ein Windows PC zum Einsatz.
+
 ### Installierte Software
 Die hier aufgeführete Software ist kostenfrei.
 
@@ -67,13 +108,12 @@ notepad++                 | [Link zu externer Webseite Dritter](https://notepad-
 
 Stand 19.03.2024
 
-
 ## Open Broadcaster Software - OBS Studio
+- Server https://github.com/obsproject/obs-websocket
+- Client https://github.com/IRLToolkit/simpleobsws
 
-Server
-https://github.com/obsproject/obs-websocket
+### Installation Shutdown Plugin
 
-Client
-https://github.com/IRLToolkit/simpleobsws
+
 
 # Datenschutzrichtlinien
