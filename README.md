@@ -53,7 +53,9 @@ Nach einem Bootup des Streaming-PCs wird automatisch der Websocket Server gestar
     - [websocket_server.bat](files/websocket_server.bat)
 - fertig
 
-## Autostart Raspberry PI 
+## Autostart Raspberry PI
+Nach einem Bootup des Kontrol-PCs wird automatisch die Anwendung `theplotnft-application` gestartet. 
+
 - Pfad:
 - Datei:
 - Command
