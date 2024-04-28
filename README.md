@@ -92,7 +92,7 @@ Advanced Options -> Verbindungen bearbeiten... <br>
 Dialog `Network Connections` -> Ethernet -> theplotnft-connection <br>
 - Tab `Allgeimen`
   - Connect automaticalle with priority 0
-  - All users my connect to this network
+  - All users may connect to this network
 - Tab `Ethernet`
   - MTU `Automatisch`
 - Tab `IPv4-Einstellugnen`
