@@ -91,8 +91,7 @@ Mausklick Links auf Netzwerksymbol in der Taskleiste (untern rechts) <br>
 Advanced Options -> Verbindungen bearbeiten... <br>
 Dialog `Network Connections` -> Ethernet -> theplotnft-connection <br>
 - Tab `Allgeimen`
-  - Connect automaticalle with priority 0
-  - All users may connect to this network
+  - Connect automaticalle with priority 0 
 - Tab `Ethernet`
   - MTU `Automatisch`
 - Tab `IPv4-Einstellugnen`
