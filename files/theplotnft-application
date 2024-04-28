@@ -1,0 +1,30 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides: theplotnft-application
+# Required-Start:
+# Required-Stop:
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Starts & Stops theplotnft-application
+# Description: Starts & Stops theplotnft-application
+### END INIT INFO
+
+case "$1" in
+  start)
+  echo "the plot nft - application  start"
+  . /home/theplotnft/Python/theplotnft-venv/bin/activate
+  python3 /home/theplotnft/Python/theplotnft-application/theplotnft_application/application.py
+  ;;
+
+  stop)
+  echo "the plot nft - application stop"
+  killall theplotnft-application
+  ;;
+  *)
+
+  echo "Use: /etc/init.d/theplotnft-application {start|stop}"
+  exit 1
+  ;;
+ esac
+
+exit 0

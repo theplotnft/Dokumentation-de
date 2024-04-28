@@ -46,19 +46,29 @@ Link zum GitHub Repo: [Plotter-Control](https://github.com/theplotnft/Plotter-Co
 ## Autostart Windows 10
 Nach einem Bootup des Streaming-PCs wird automatisch der Websocket Server gestartet. Der Websocket Server stellt die Verbindung zum Kontroll-PC und zu OBS her.
 
+`websocket_server.bat` soll automatisch nach einem Bootup ausgeführt werden.
+
 - WIN + R
 - Eingabe `shell:startup`
     - Pfad: `C:\Users\theplotnft\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 - Datei in Ordner kopieren
     - [websocket_server.bat](files/websocket_server.bat)
-- fertig
 
 ## Autostart Raspberry PI
 Nach einem Bootup des Kontrol-PCs wird automatisch die Anwendung `theplotnft-application` gestartet. 
 
-- Pfad:
-- Datei:
-- Command
+`theplotnft-application` soll automatisch nach einem Bootup ausgeführt werden.
+
+- Skript nach `/etc/init.d/` kopieren:
+   - [theplotnft-application](files/theplotnft-application)
+- Anschließend ausführen
+   - `cd /etc/init.d/` 
+   - `sudo chmod 755 theplotnft-application`
+   - `sudo update-rc.d theplotnft-application defaults`
+
+Zum entfernen wird folgender Befehl verwendet (`sudo update-rc.d -f theplotnft-application remove`).
+
+Quelle: [Link zu externer Webseite Dritter](https://raspberry.tips/raspberrypi-einsteiger/raspberry-pi-autostart-von-skripten-und-programmen-einrichten)
 
 ## Standardgateway
 Damit der Streaming-PC über eine interne IP-Adresse mit dem Kontroll-PC kommunizieren, und gleichzeitg eine Verbindung zum Internet herstellen kann, muss ein Gateway gesetzt werden.<br>
