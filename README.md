@@ -87,9 +87,21 @@ Ermittlung des Standardgateways: Verbinde den Streaming-PC und Router mit einem 
 ![alt text](files/TCP_IPv4_Windows.png)
 
 ## IP Settings Raspberry PI
-Wie gelangt man zum Menu
-Screenshot
-
+Mausklick Links auf Netzwerksymbol in der Taskleiste (untern rechts) <br>
+Advanced Options -> Verbindungen bearbeiten... <br>
+Dialog `Network Connections` -> Ethernet -> theplotnft-connection <br>
+- Tab `Allgeimen`
+  - Connect automaticalle with priority 0
+  - All users my connect to this network
+- Tab `Ethernet`
+  - MTU `Automatisch`
+- Tab `IPv4-Einstellugnen`
+  - Method `Manuell`
+  - Adressen
+    - Adresse `192.168.178.200`
+    - Netzmaske `255.255.255.0`
+    - Gateway `192.168.178.1`
+`
 # Kamera
 
 # Kontroll
