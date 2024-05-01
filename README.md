@@ -135,8 +135,9 @@ Stand 19.03.2024
 - Server https://github.com/obsproject/obs-websocket
 - Client https://github.com/IRLToolkit/simpleobsws
 
-### Installation Shutdown Plugin
-
+### Installation OBS Shutdown Plugin 0.1.2
+- Kopiere Ordner `obs-shutdown-plugin` von `.\obs-shutdown-plugin-0.1.2-obs28-Windows.zip\data\obs-plugins` nach `.\obs-studio\data\obs-plugins`
+- Kopiere Inhalt von `.\obs-shutdown-plugin-0.1.2-obs28-Windows.zip\obs-plugins\64bit` (*.dll, *.pdb) nach `.\obs-studio\obs-plugins\64bit`
 
 
 # Datenschutzrichtlinien
