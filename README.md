@@ -64,9 +64,7 @@ Nach einem Bootup des Kontrol-PCs wird automatisch die Anwendung `theplotnft-app
 - Anschließend ausführen
    - `cd /etc/init.d/` 
    - `sudo chmod 755 theplotnft-application`
-   - `sudo update-rc.d theplotnft-application defaults`
-
-Zum entfernen wird folgender Befehl verwendet (`sudo update-rc.d -f theplotnft-application remove`).
+- Zuletzt die Zeile `/etc/init.d/theplotnft-application start` nach `sudo nano /etc/rc.local` schreiben
 
 Quelle: [Link zu externer Webseite Dritter](https://raspberry.tips/raspberrypi-einsteiger/raspberry-pi-autostart-von-skripten-und-programmen-einrichten)
 
