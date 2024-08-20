@@ -112,6 +112,14 @@ Nachdem die Eingabe validiert wurde, startet der Plottvorgang. Dieser wird Live 
 ## Streaming-PC
 Als Streaming-PC kommt ein Windows PC zum Einsatz.
 
+### Netzbetrieb und Energiesparmodus
+Ist der Energiesparmodus aktiv und der Streaming-PC geht in den Ruhezustand, ist die Websocketverbindung unterbrochen. Das muss vermieden werden.
+Damit der Streaming-PC nicht automatisch im Idle-Zustand in den Energiesparmodus geht, ist dieser zu deaktivieren.<br>
+Gehe hierzu auf: `Einstellungen -> System -> Netzbetrieb und Energiesparmodus`
+
+![alt text](files/Energiesparmodus.png)
+
+
 ### Installierte Software
 Die hier aufgeführete Software ist kostenfrei.
 
@@ -132,6 +140,12 @@ Stand 19.03.2024
 ## Open Broadcaster Software - OBS Studio
 - Server https://github.com/obsproject/obs-websocket
 - Client https://github.com/IRLToolkit/simpleobsws
+
+### Beim Start nach Updates suchen
+Die Funktion `Beim Start nach Updates suchen` ist zu deaktivieren, da sich ansonsten bei einem verfügbaren Update ein Dialog öffnet, welcher eine manuelle Benutzereingabe erwartet. Das muss vermieden werden, da OBS ausschließlich remote gesteuert wird.
+Gehe hierzu auf: `Einstellungen -> Allgemein -> Updates`
+
+![alt text](files/OBSUpdates.png)
 
 ### Installation OBS Shutdown Plugin 0.1.2
 - Kopiere Ordner `obs-shutdown-plugin` von `.\obs-shutdown-plugin-0.1.2-obs28-Windows.zip\data\obs-plugins` nach `.\obs-studio\data\obs-plugins`
